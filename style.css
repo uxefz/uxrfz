@@ -1,0 +1,212 @@
+*{
+    margin: 0%;
+    padding: 0px;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    color: black;
+}
+
+nav .logo{
+    width:15px;
+    font-size: 32px;
+    color: black;
+    padding-left: 15px;
+    font-family: monaco,Consolas,Lucida Console,monospace;
+}
+
+.n{
+    font-size: 32px;
+    color: rgb(20, 208, 255);
+    font-family: monaco,Consolas,Lucida Console,monospace;
+}
+
+
+nav ul li {
+    display: inline-block;
+    color:black;
+    justify-content: space-between;
+    margin: 0 17px;
+    font-family: monospace;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+
+nav ul li a{
+    color:rgb(0, 0, 0);
+    text-transform: hover;
+    margin: 20pxpx;
+}
+    
+
+.lb{
+    color: rgb(20, 208, 255);
+    font-size: 19px;
+    font-family: monospace;
+    display: inline-block;
+}
+
+nav ul li a:hover{
+    background-color:rgb(20, 208, 255);
+    border-radius: 3px;
+    padding:8px;
+    color: #000000;
+    text-overflow: 3s;
+}
+.container{
+    display: flex;
+    background-color:rgb(20, 208, 255);
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    justify-content: center; 
+}
+.content{
+    margin: 10px;
+    padding: 15px;
+    justify-content: center;
+    border-color: rgb(20, 208, 255);
+    align-items: center;
+    
+}
+
+
+
+.content h3{
+    font-size: 58px;
+    color:#ffffff;
+    align-items: center;
+    margin-left: 90px;
+    justify-content: center;
+    font-family: monaco,Consolas,Lucida Console,monospace;
+}
+
+
+.content .who{
+    width: 10px;
+    justify-content: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+    align-items: center;
+    border-color: rgb(255, 157, 157);
+    border-bottom: rgb(255, 163, 163);
+    box-shadow: #f0e5e5;
+    width: 230px;
+    background-color: rgb(208, 255, 40);
+    color:#fff;
+    height: 50px;
+    border-radius: 19px;
+    font-size: 20px;
+    font-family: font-family monaco,Consolas,Lucida Console,monospace;
+}
+
+.content .who {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 22px;
+    transition: 0.8, ;
+}
+.content pre{
+    color: rgb(0, 100, 139);
+    size:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+}
+.lab{
+    margin: 10px;
+    padding: 15px;
+    background-color: #fff;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    justify-content: center ;
+    font-family: font-family monaco,Consolas,Lucida Console,monospace ;
+}
+.nd{
+    background-color:rgb(82, 0, 0);
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    justify-content: center; 
+}
+
+
+
+    .cml {
+      display: flex;
+      margin:20px;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      flex-wrap: wrap;
+      background-color: rgb(255, 255, 255);
+      width: 100%;
+    }
+
+    .card {
+      max-width: 300px;
+      width: 100%;
+    }
+
+    .card_1 {
+      background-color: rgb(22, 106, 185);
+      height: 355px;
+      border-radius: 20px;
+      margin-right: 35px;
+    }
+
+    .card_2 {
+      background-color: rgb(65, 16, 16);
+      height: 355px;
+      border-radius: 20px;
+      margin-right: 35px;
+    }
+
+    .card_3 {
+      background-color: rgb(179, 179, 184);
+      height: 355px;
+      border-radius: 20px;
+      margin-right: 35px;
+    }
+.lab h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(20, 208, 255);
+}
+.lab h2{
+    margin: 70px;
+    font-size: 32px;
+}
+.lab #y{
+    width: 40px;
+    height: 40px;
+}
+
+.lab #t{
+    width: 250px;
+    height: 250px;
+    margin: 80px;
+    padding: 30px;
+}
+.lab p{
+    display: flex;
+    justify-content: center;
+    color:rgb(139, 160, 255)
+}
+.lab{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
